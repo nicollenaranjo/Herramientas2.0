@@ -1,4 +1,4 @@
-sumaCreditos = 0
+sumaCreditos = 400
 ponderado = 0
 horario = []
 ponderadoFinal = 0
