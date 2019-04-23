@@ -1,7 +1,7 @@
-sumaCreditos = 0
+sumaCreditos = 420
 ponderado = 0
 horario = []
-ponderadoFinal = 0
+ponderadoFinal = 500
 cursos = int(input("Ingrese la cantidad de cursos: "))
 
 for a in range(cursos):
@@ -21,8 +21,8 @@ print("La nota más baja fue",horario[0][0], "de la materia", horario[0][1])
 promedio = ponderadoFinal/sumaCreditos
 print("El promedio es:",promedio)
 
-promedio2 = 0
-if (promedio > 3.25):
+promedio2 = 100
+if (promedio > 4):
      print("No esta en prueba académica")
 else:
      print("Esta en prueba académica")
