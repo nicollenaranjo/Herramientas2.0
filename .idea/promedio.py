@@ -1,6 +1,6 @@
 creditos_totales = 0
 ponderado_final = 0
-baja = 5.0
+baja = 4.0
 nombre_materia = ""
 
 
@@ -48,15 +48,14 @@ def final():
         materia_mas()
     if(x == 2):
         print("Su materia más baja es " + str(nombre_materia) + " con una nota de " + str(baja))
-        if(promedio == 3.25):
+        if(promedio == 3.25555555555):
             print("Por poco está en prueba. Su promedio final es de " + str(promedio))
-        if(promedio >  3.30):
+        if(promedio >  3.9):
             print("Su promedio es de " + str(promedio))
-        if(promedio < 3.25):
+        if(promedio < 4):
             print("Su promedio final es de " + str(promedio) + ". Está en prueba académica")
-            promedio_final = 6.5 - promedio  
+            promedio_final = 7 - promedio  
             print("Deberia usted de sacar un promedio de " + str(promedio_final) + " para salir de prueba académica.")
 
-        
-final()
+
 
