@@ -22,7 +22,7 @@ promedio = ponderadoFinal/sumaCreditos
 print("El promedio es:",promedio)
 
 promedio2 = 0
-if (promedio > 3.25):
+if (promedio > 4):
      print("No esta en prueba académica")
 else:
      print("Esta en prueba académica")
